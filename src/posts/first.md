@@ -1,13 +1,15 @@
 ---
 title: 🎉 First Post 🎉
 description: 🚀 This is my first post. 🚀
-date: '2023-08-16'
+date: '2023-08-16 00:00:00'
 categories:
   - '📁 first'
   - '✌️ second'
   - '🌟 third'
 published: true
 ---
+
+## Table of Contents
 
 ## 📑 Markdown 📑
 

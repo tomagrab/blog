@@ -5,14 +5,19 @@
 
   import Header from "$lib/Header/Header.svelte";
   import Footer from "$lib/Footer/Footer.svelte";
+  import Transition from "./transition.svelte";
 
   import "../app.css";
+
+  export let data;
 </script>
 
 <div class="layout">
   <Header />
   <main>
-    <slot />
+    <Transition url={data.url}>
+      <slot />
+    </Transition>
   </main>
   <Footer />
 </div>
